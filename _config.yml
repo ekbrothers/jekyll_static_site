@@ -16,14 +16,23 @@ exclude:
 include:
   - _pages
   - _redirects
+  
+asciidoc: {}
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    - idseparator=_
+    - source-highlighter=coderay
+    - icons=font
 
 # Site settings
-title: Matt Grey
-long-title: Matt Grey Design
-email: mattgreydesign@gmail.com
-description: "The selected portfolio of London based digital product designer Matt Grey"
+title: Evan Brothers
+long-title: Evan Brothers dot net
+email: ekbrothers@gmail.com
+description: "The selected portfolio of Cincinnati based digital product designer Evan Brothers"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://himatt.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 timezone: Europe/London
 year: 2020
 start-year: 2010
